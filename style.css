@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-item{
+    border: 2px solid white;
+    margin-right: 10px;
+}
+#banner_container{
+    padding: 0px;
+}
+/* .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+} */
+
+/* #simple{ */
+    /* font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} */
+.card{
+    margin-top: 50px;
+    border-radius: 0;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     
+
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.card-body{
+    padding: 15px;
+    background-color: #e4e0ef;
+}
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    color: white;
+
+}
+  
+.jumbotron h1, .jumbotron h2, .jumbotron p {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for readability */
+
+}
+#img1{
+    height: 400px;
+    object-fit: cover;
+}
+
+#btn1{
+    margin-left: 120px;
+}
+#btn2{
+    margin-left: 80px;
+}
+.contact .jumbotron {
+    background-size: cover;
+    background-position: center;
+  }
+.custom-disabled-input{
+    height: 100px;        /* Adjust height */
+    background-color: #e9ecef; /* Bootstrap's disabled background color */
+    opacity: 1; 
+}
+@media (max-width: 576px),(max-width: 800px) {
+    .contcat-img {
+      background-attachment: scroll;
+      min-height: 100vh; /* Adjust as needed */
+    }
+    .cont{
+        padding: 0px;
+    
+    }
+   .message{
+           height: 70px;
+   }
+  }
+
+
+
+
